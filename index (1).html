@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hemanth - Developer portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: "Poppins", sans-serif;
+      }
+
+      body {
+        background-color: rgb(1, 4, 41);
+        color: white;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(40, 40, 97);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        color: rgb(143, 143, 244);
+        font-size: 1.02rem;
+      }
+      main hr {
+        border: 0;
+        background: #9c97f1;
+        height: 1.2px;
+        margin: 60px 84px;
+      }
+      .left {
+        font-size: 1.6rem;
+      }
+      .firstsection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 130px 0;
+      }
+      .firstsection > div {
+        width: 30%;
+      }
+      .leftsection {
+        font-size: 2.7rem;
+        margin: 28px;
+      }
+      .leftsection .buttons {
+        padding: 50px 0;
+      }
+      .leftsection .btn {
+        padding: 12px;
+        background: #1e2167;
+        color: white;
+        border: 2px solid white;
+        border-radius: 6px;
+        font-size: 20px;
+        cursor: pointer;
+      }
+      .purple {
+        color: rgb(181, 121, 237);
+      }
+      .text-grey {
+        color: gray;
+      }
+      #element {
+        color: rgb(181, 121, 237);
+      }
+      .rightsection img {
+        width: 80%;
+      }
+      .secondsection {
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+      }
+      .secondsection h1 {
+        font-size: 2rem;
+      }
+      .secondsection .box {
+        background: white;
+        width: 80vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+      }
+      .secondsection .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 100px;
+      }
+      .image-top {
+        position: relative;
+        left: -9px;
+        top: -32px;
+        width: 25px;
+      }
+      .vertical-title {
+        position: relative;
+        top: 75px;
+        width: 150px;
+        font-size: 14px;
+      }
+      .vertical-desc {
+        position: relative;
+        top: 75px;
+        color: grey;
+        width: 150px;
+        font-size: 9px;
+      }
+      .thirdsection {
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+      }
+      .thirdsection h1 {
+        font-size: 2rem;
+      }
+      .thirdsection .box {
+        background: white;
+        width: 80vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+      }
+      .thirdsection .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 200px;
+      }
+      footer {
+        background-color: whitesmoke;
+        color: black;
+      }
+      .footer {
+        display: flex;
+        padding: 23px 123px;
+        justify-content: space-evenly;
+      }
+      .footer ul {
+        list-style: none;
+      }
+      .footer > div {
+        width: 120px;
+      }
+      footer .footer-rights {
+        text-align: center;
+        color: rgb(46, 36, 36);
+        padding: 12px 0;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="left">Hemanth's portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Projects</a></li>
+            <li><a href="Contact.html">Contact me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          Hi,My name is <span class="purple">Hemanth</span>
+
+          <div>I am a passionate</div>
+          <span id="element"></span>
+          <div class="buttons">
+            <a href="Resume hemanth .pdf"><button class="btn">Download resume</button></a>
+            <a href="https://github.com/kankatalah1"
+              ><button class="btn">Github</button></a
+            >
+          </div>
+        </div>
+        <div class="rightsection">
+          <img src="01.png" alt="" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondsection">
+        <span class="text-grey">What I have done far</span>
+        <h1>Work Experience</h1>
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="c++.png" alt="" />
+            <div class="vertical-title">C++ Programmer (2019=2020)</div>
+            <div class="vertical-desc">
+              Experienced C++ programmer skilled in cross-platform development,
+              performance optimization, and object-oriented design.
+              Collaborative team player with a track record of delivering
+              efficient, high-quality code. Passionate about continuous learning
+              and problem-solving.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="Java.png" alt="" />
+            <div class="vertical-title">Java Programmer (2020=2021)</div>
+            <div class="vertical-desc">
+              Experienced Java programmer with a strong background in
+              application development, problem-solving, and efficient code
+              writing. Adept at collaborating with teams to deliver high-quality
+              software solutions.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="html.png" alt="" />
+            <div class="vertical-title">HTML Developer (2020=2021)</div>
+            <div class="vertical-desc">
+              Proficient HTML developer skilled in creating responsive web
+              designs, optimizing user interfaces, and maintaining cross-browser
+              compatibility. Committed to crafting engaging online experiences
+              with a focus on clean, semantic code.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="aws.png" alt="" />
+            <div class="vertical-title">AWS Leader (2021=2022)</div>
+            <div class="vertical-desc">
+              Seasoned AWS leader with a proven track record in cloud
+              architecture, infrastructure management, and scaling solutions for
+              complex projects. Expert in driving efficient, secure, and
+              cost-effective AWS deployments to achieve organizational
+              objectives.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="python.png" alt="" />
+            <div class="vertical-title">Python Developer (2022=2022)</div>
+            <div class="vertical-desc">
+              Experienced Python developer proficient in creating scalable and
+              efficient software solutions. Skilled in web development, data
+              analysis, and automation, with a strong focus on clean and
+              maintainable code. Adept at problem-solving and collaborating in
+              diverse teams.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="google.png" alt="" />
+            <div class="vertical-title">Cloud manager (2022=2023)</div>
+            <div class="vertical-desc">
+              Dedicated cloud manager with expertise in architecting, deploying,
+              and optimizing cloud infrastructure. Adept at managing resources,
+              ensuring security, and optimizing costs. Proven track record in
+              orchestrating cloud solutions to drive business objectives and
+              enhance operational efficiency.
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <section class="thirdsection">
+        <span class="text-grey">What I have done far</span>
+        <h1>Projects</h1>
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="placement.svg" alt="" />
+            <div class="vertical-title">Placement cell (2022=2022)</div>
+            <div class="vertical-desc">
+              It focuses on facilitating seamless job placement for students,
+              streamlining the recruitment process, and connecting employers
+              with talented individuals. This initiative demonstrates my
+              commitment to enhancing career opportunities and fostering
+              collaboration between educational institutions and businesses.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="plants.png" alt="" />
+            <div class="vertical-title">Plants selling portal (2022=2023)</div>
+            <div class="vertical-desc">
+              "Plant Selling Portal" is showcased in my portfolio, offering a
+              user-friendly platform for buying and selling plants. It promotes
+              green living by connecting plant enthusiasts and growers,
+              facilitating a vibrant community around gardening. This project
+              highlights my dedication to fostering eco-friendly practices and
+              online marketplaces.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="portfolio.svg" alt="" />
+            <div class="vertical-title">Portfolio (2023=present)</div>
+            <div class="vertical-desc">
+              The "Portfolio" project showcases my skills and achievements. It's
+              a comprehensive representation of my work, from web development to
+              design. This project reflects my versatility and dedication to
+              delivering creative and functional solutions.
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <h3>Hemanth's Developer portfolio</h3>
+        </div>
+        <div class="footer-second">
+          <ul>
+            <li>head</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="footer-third">
+          <ul>
+            <li>head</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="footer-fourth">
+          <ul>
+            <li>head</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-rights">
+        copyrights &#169;Hemanthdeveloperportfolio.com | All rights reserved
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer.", "Cloud Leader.", "Web Designer."],
+        typeSpeed: 50,
+      });
+    </script>
+    <script>
+      document
+        .getElementById("about-link")
+        .addEventListener("click", function (event) {
+          event.preventDefault(); // Prevent the default behavior of the link
+          var workExperienceSection = document.getElementById("secondsection");
+          if (secondsection) {
+            secondsection.scrollIntoView({ behavior: "smooth" });
+          }
+        });
+    </script>
+  </body>
+</html>
